@@ -276,7 +276,7 @@ body {
 }
 .signup-btn:hover {
     cursor: pointer;
-    width: 70px;
+    width: 170px;
 }
 .check-svg {
     width: 16px;
@@ -308,7 +308,6 @@ body {
     color: var(--accent-cl);
     background-color: var(--white);
     border: 1px solid var(--accent-cl);
-
 }
 .download-btn-list .item .btn:hover .download-btn-svg {
     width: 150px;
@@ -316,3 +315,37 @@ body {
 .download-btn-list .item:nth-child(1) {
     margin-right: 30px;
 }
+/*footer*/
+.footer {
+    background-color: black;
+    height: 185px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+.footer-logo {
+    width: 45px;
+    height: 45px;
+}
+.footer-links .item {
+    color: var(--white);
+}
+.footer-links .item:not(:last-child) {
+    width: 65px;
+    margin-right: 20px;
+    border-right: 1px solid #4E4E4E;
+}
+.footer-links .item:hover {
+    color: var(--accent-cl);
+    cursor: pointer;
+}
+.footer-text {
+    color: #818181;
+}
+
