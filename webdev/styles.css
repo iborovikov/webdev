@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto/roboto-v20-latin_cyrillic-regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('../fonts/roboto/roboto-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'),
+        url('../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff') format('woff'),
+        url('../fonts/roboto/roboto-v20-latin_cyrillic-regular.ttf') format('truetype'),
+        url('../fonts/roboto/roboto-v20-latin_cyrillic-regular.svg#Roboto') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto/roboto-v20-latin_cyrillic-700.eot');
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('../fonts/roboto/roboto-v20-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto/roboto-v20-latin_cyrillic-700.woff2') format('woff2'),
+        url('../fonts/roboto/roboto-v20-latin_cyrillic-700.woff') format('woff'),
+        url('../fonts/roboto/roboto-v20-latin_cyrillic-700.ttf') format('truetype'),
+        url('../fonts/roboto/roboto-v20-latin_cyrillic-700.svg#Roboto') format('svg');
+}
+
+:root {
+    --main-text-cl: #373737;
+    --accent-cl: #00AFDB;
+    --white: #ffffff;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--main-text-cl);
+}
+
+/* Utils */
+.container {
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:visited {
+    color: inherit;
+}
+
+.list {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.title {
+    font-weight: 700;
+    color: var(--main-text-cl);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn {
+    width: 185px;
+    height: 45px;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background: var(--accent-cl);
+    color: var(--white);
+}
