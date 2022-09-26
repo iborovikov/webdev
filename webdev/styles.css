@@ -146,3 +146,56 @@ body {
     width: 45px;
     height: 45px;
 }
+/* Your Life */
+.your-life {
+    background-image: url(./assets/bg-image.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.your-life-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 135px;
+    padding-bottom: 90px;
+
+}
+.your-life-title {
+    color: var(--white);
+    line-height: 1.17;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.5px;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+.your-life-text {
+    width: 504px;
+    height: 50px;
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.your-life-btn {
+    margin-bottom: 185px;
+}
+.your-life-btn:hover {
+    cursor: pointer;
+    color: var(--accent-cl);
+    background-color: var(--white);
+}
+.social-links-list .social-link:not(:last-child){
+    margin-right: 30px;
+}
+.social-link {
+    width: 20px;
+    height: 20px;
+}
+.social-link:hover {
+    background-color: var(--accent-cl);
+}
