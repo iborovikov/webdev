@@ -72,29 +72,24 @@ body {
     padding-right: 20px;
     padding-left: 20px;
 }
-
 .link {
     text-decoration: none;
 }
-
 .link:visited {
     color: inherit;
 }
-
 .list {
     display: flex;
     padding: 0px;
     margin: 0px;
     list-style: none;
 }
-
 .title {
     font-weight: 700;
     color: var(--main-text-cl);
     text-align: center;
     text-transform: uppercase;
 }
-
 .btn {
     width: 185px;
     height: 45px;
@@ -105,4 +100,49 @@ body {
     border: none;
     background: var(--accent-cl);
     color: var(--white);
+}
+/* header */
+.header {
+    height: 95px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: black;
+}
+.heder-container {
+    position: relative;
+    height: 45px;
+}
+.navigation {
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    
+}
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: 580px;
+}
+.link.active-page{
+    color: var(--accent-cl);
+}
+.navigation-list .nav-link:not(:last-child) {
+    margin-right: 85px;
+}
+.navigation-list .nav-link:nth-child(2) {
+    margin-right: 245px;
+}
+.nav-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--accent-cl);
+}
+.logo {
+    position: absolute;
+    left: calc(50% - 44px/2);
+    top: 0px;
+    width: 45px;
+    height: 45px;
 }
