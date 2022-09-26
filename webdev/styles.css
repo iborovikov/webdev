@@ -97,6 +97,7 @@ body {
     width: 185px;
     height: 45px;
     display: inline-block;
+    padding: 0;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -280,4 +281,38 @@ body {
 .check-svg {
     width: 16px;
     height: 16px;
+}
+/*download-block*/
+.download-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+    padding-top: 120px;
+    padding-bottom: 180px;
+}
+.download-btn-svg {
+    background-color: #009CC2;
+    padding: 10px 12px;
+    width: 45px;
+    height:45px;
+}
+.download-btn-list .item .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+}
+.download-btn-list .item .btn:hover {
+    cursor: pointer;
+    color: var(--accent-cl);
+    background-color: var(--white);
+    border: 1px solid var(--accent-cl);
+
+}
+.download-btn-list .item .btn:hover .download-btn-svg {
+    width: 150px;
+}
+.download-btn-list .item:nth-child(1) {
+    margin-right: 30px;
 }
