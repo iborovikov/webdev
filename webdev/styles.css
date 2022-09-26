@@ -55,6 +55,9 @@ h6,
 p {
     margin: 0;
 }
+input {
+    border: none;
+}
 
 body {
     margin: 0px;
@@ -244,4 +247,37 @@ body {
     color: var(--accent-cl);
     background-color: var(--white);
     border: 1px solid var(--accent-cl);
+}
+/*signup-block*/
+.signup-block {
+    background-image: url(./assets/pexels-christina-morillo.jpg);
+    height: 525px;
+    padding-top: 200px;
+    padding-bottom: 220px;
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup-container {
+    display: flex;
+}
+.signup-title {
+    color: var(--white);
+}
+.email-input {
+    width: 340px;
+    height: 45px;
+}
+.signup-btn {
+    width: 60px;
+}
+.signup-btn:hover {
+    cursor: pointer;
+    width: 70px;
+}
+.check-svg {
+    width: 16px;
+    height: 16px;
 }
