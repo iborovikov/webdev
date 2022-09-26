@@ -188,6 +188,7 @@ body {
     cursor: pointer;
     color: var(--accent-cl);
     background-color: var(--white);
+    border: 1px solid var(--accent-cl);
 }
 .social-links-list .social-link:not(:last-child){
     margin-right: 30px;
@@ -198,4 +199,33 @@ body {
 }
 .social-link:hover {
     background-color: var(--accent-cl);
+}
+/* Rappresent */
+.rappresent-section {
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+.opt-container {
+    width: 407px;
+}
+.rappresent-block {
+    margin-right: 250px;
+}
+.block-title {
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 1px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+.block-text {
+    margin-bottom: 30px;
+}
+.rappresent-btn:hover {
+    cursor: pointer;
+    color: var(--accent-cl);
+    background-color: var(--white);
+    border: 1px solid var(--accent-cl);
 }
