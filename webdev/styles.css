@@ -229,3 +229,19 @@ body {
     background-color: var(--white);
     border: 1px solid var(--accent-cl);
 }
+/*implement-block*/
+.implement-block {
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+.implement-img {
+    margin-right: 140px;
+}
+.implement-btn:hover {
+    cursor: pointer;
+    color: var(--accent-cl);
+    background-color: var(--white);
+    border: 1px solid var(--accent-cl);
+}
